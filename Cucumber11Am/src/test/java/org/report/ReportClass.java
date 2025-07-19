@@ -28,6 +28,10 @@ public class ReportClass {
 		rp.generateReports();
 		 //hi
 		
+		ReportBuilder rp=new ReportBuilder(li,c);
+		rp.generateReports();
+		 //hi
+		
 		
 	}
 
