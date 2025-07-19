@@ -33,8 +33,7 @@ public class ReportClass {
 		 //hi
 
 
-		Configuration c=new Configuration(f,"LoginStep");
-		c.addClassifications("User","anu");
+	//remove 2 line
 		c.addClassifications("Password","12233");
 		c.addClassifications("Tool", "BDD Cucumber");
 		c.addClassifications("Version", "7.20.1");
