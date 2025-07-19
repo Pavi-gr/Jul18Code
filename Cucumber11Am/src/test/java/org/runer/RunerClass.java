@@ -21,4 +21,10 @@ public class RunerClass {
 		
 	}
 
+		@AfterClass
+	public static void reportex() {
+		ReportClass.loginReport("C:\\Users\\muthu\\eclipse-workspace\\Cucumber11Am\\target\\report.html");
+		
+	}
+
 }
